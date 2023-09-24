@@ -1,0 +1,25 @@
+@import url("reset.css");
+*{
+    color: black;
+}
+span{
+    color: red;
+}
+#content{
+    color: blue;
+}
+.menu-item{
+    color: chartreuse;
+}
+.about-link a{
+    color: darkorchid;
+}
+.about_text *{
+    color: darkslategrey;
+}
+.page-content>p{
+    color: deepskyblue;
+}
+[class*="footer"]{
+    color: lime;
+}
