@@ -1,0 +1,107 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #7D7D7D;
+    line-height: 1.27;
+}
+.scrine-one p{
+    text-decoration: underline;
+}
+.sub-title,
+.sub-title-two{
+   font-family: "Poppins", sans-serif;
+   text-align: center;
+   text-transform: capitalize;
+   text-shadow: 4px 4px 3px purple,
+                -3px -2px 4px green;
+}
+.sub-title {
+    color: #37393F;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+ }
+ .sub-title p{
+    line-height: 1.2;
+ }
+ .sub-title-two {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+ }
+ .list {
+    font-family: "Inter", sans-serif;
+    letter-spacing: 3px;
+    text-indent: 30px;
+    text-transform: capitalize;
+    font-weight: 500;
+ }
+ 
+ .list + p{
+    text-decoration: underline;
+ }
+ h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 4px 4px 3px chocolate,
+                -3px -3px 2px yellow;
+ }
+ .header li {
+    color: chartreuse;
+    font-weight: 500;
+    text-decoration: underline;
+ }
+ .title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+ }
+ .main-title {
+    color: aqua;
+    text-indent: 30px;
+    letter-spacing: 2px;
+    text-align: justify;
+ }
+ #lang,
+ #imilarity,
+ #love,
+ #anxiety,
+ #feeling,
+ #advice
+  {
+    color: darkcyan;
+    text-decoration: underline;
+ }
+ .main-title-2 {
+    text-indent: 30px;
+    color: aqua;
+}
+.main-title-3 {
+    text-indent: 30px;
+    color: aqua;
+}
+.main-title-4 {
+    text-indent: 30px;
+    color: aqua;
+}
+.main-title-5 {
+    text-indent: 30px;
+    color: aqua;
+}
+.main-title-6 {
+    text-indent: 30px;
+    color: aqua;
+}
+.quote {
+    font-style: italic;
+    color: brown;
+    text-decoration: underline;
+}
+footer {
+    color: maroon;
+    text-shadow: 3px 3px 2px brown;
+}
