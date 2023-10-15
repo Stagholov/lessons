@@ -1,0 +1,394 @@
+@import url(font.css);
+@import url(reset.css);
+
+body {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color: #7D7D7D;
+    line-height: 1.46;
+}
+
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header {
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(128, 125, 126, 0.250);
+    background:
+        url("../img/fon-chernii.jpg") 0 0 / 500px no-repeat;
+    background-size: cover;
+    margin: 0px 0px 50px 0px;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.2;
+    margin: 100px 0px 20px 0px;
+}
+
+.header__list {
+    font-size: 20px;
+    line-height: 1.5;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+
+
+.clothing-block {
+    max-width: 1270px;
+    padding: 0 15px;
+    margin: 0 auto 100px;
+    font-family: "Causten";
+    color: #807D7E;
+}
+
+.clothing-title-block {
+    margin-bottom: 30px;
+}
+
+.hatch {
+    width: 6px;
+    height: 28px;
+    border-radius: 10px;
+    background: #8A33FD;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.clothing-title {
+    display: inline-block;
+    color: #3C4242;
+    font-family: "CoreSansC";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: 1.2;
+    letter-spacing: 0.56px;
+    vertical-align: bottom;
+}
+
+.clothing-block-container {
+    padding: 0 5px 0 15px;
+}
+
+.clothing-subtitle {
+    font-family: "CoreSansC";
+    font-size: 20px;
+    font-weight: 650;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    margin-bottom: 25px;
+}
+
+.clothing-text {
+    font-size: 20px;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+}
+
+.clothing-text span {
+    font-family: "CoreSansC";
+    font-weight: 650;
+}
+
+.clothing-text p {
+    margin-bottom: 20px;
+}
+
+.button a {
+    border-bottom: 3px dotted #8A33FD;
+}
+
+
+
+.everyday {
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.everyday__block {
+    font-size: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.everyday__content {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    padding: 183px 74px 174px;
+    background:
+        url("../img/leaf.jpg") center / cover no-repeat;
+}
+
+.everyday__title {
+    font-family: "CoreSansC", sans-serif;
+    font-size: 34px;
+    font-weight: 850;
+    line-height: 1.47;
+    text-transform: uppercase;
+    letter-spacing: 0.208px;
+    margin: 0px 0px 30px 0px;
+}
+
+.everyday__text {
+    margin: 0px 0px 50px 0px;
+}
+
+.everyday__text p {
+    font-family: "Causten";
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+.everyday__link {
+    font-family: "Causten";
+    color: #3c4242;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px 44px;
+}
+
+.everyday__image {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    min-height: 653.54px;
+    background: url("../img/people.png") center top / cover no-repeat;
+}
+
+
+
+
+.container-business {
+    max-width: 700px;
+    margin: 0 auto 100px;
+    padding: 0 15px;
+}
+
+.consulting-subtitle {
+    display: inline-block;
+    color: #37393F;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.rectangle {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #40DDB6;
+    margin-right: 6px;
+}
+
+.business__title {
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.business-text {
+    margin-bottom: 48px;
+}
+
+.business-text p {
+    margin-bottom: 16px;
+}
+
+.business-items {
+    margin-bottom: 48px;
+}
+
+.business-items__item {
+    border: 1px solid #E3E3E3;
+    padding: 28px 40px;
+    margin-bottom: 31px;
+}
+
+.business-items__item-title {
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background: url(../img/vector.png) no-repeat;
+    padding-left: 46px;
+    margin-bottom: 12px;
+}
+
+.business-items__item-text {
+    padding-left: 46px;
+}
+
+.business__link {
+    background: #6B77E5;
+    color: #FFF;
+    font-weight: 600;
+    display: inline-block;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 21px 35px;
+}
+
+
+
+
+
+
+.consulting-second {
+    max-width: 1250px;
+    margin: 0 auto 100px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.subtitle-wrapper {
+    margin-bottom: 14px;
+}
+
+.cons-second-title {
+    color: #37393f;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    margin-bottom: 14px;
+}
+
+.cons-second-text {
+    max-width: 852px;
+    margin: 0 auto;
+    margin-bottom: 47px;
+}
+
+.card-wrapper {
+    text-align: left;
+    font-size: 0;
+}
+
+.first-row {
+    margin-bottom: 58px;
+}
+
+.first-card,
+.second-card,
+.third-card,
+.fourth-card,
+.fifth-card,
+.sixth-card {
+    max-width: 384px;
+    margin-right: 34px;
+    display: inline-block;
+}
+
+.third-card,
+.sixth-card {
+    margin: 0;
+}
+
+.img-backround-1,
+.img-backround-2,
+.img-backround-3,
+.img-backround-4,
+.img-backround-5,
+.img-backround-6 {
+    min-width: 384px;
+    min-height: 501px;
+    margin-bottom: 24px;
+}
+
+.img-backround-1 {
+    background: url("../img/consulting/consulting-1.png") center/cover no-repeat;
+}
+
+.img-backround-2 {
+    background: url("../img/consulting/consulting-2.png") center/cover no-repeat;
+}
+
+.img-backround-3 {
+    background: url("../img/consulting/consulting-3.png") center/cover no-repeat;
+}
+
+.img-backround-4 {
+    background: url("../img/consulting/consulting-4.png") center/cover no-repeat;
+}
+
+.img-backround-5 {
+    background: url("../img/consulting/consulting-5.png") center/cover no-repeat;
+}
+
+.img-backround-6 {
+    background: url("../img/consulting/consulting-6.png") center/cover no-repeat;
+}
+
+.card-title {
+    color: #37393f;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 10px;
+}
+
+.date {
+    line-height: 1.46;
+    padding-left: 26px;
+    font-size: 14px;
+    background: url("../img/consulting/date-logo.svg") left no-repeat;
+}
+
+
+.block-practice {
+    padding: 15px 30px;
+    max-width: 960px;
+    margin: 0 auto 100px;
+}
+
+.text-practice {
+    margin-bottom: 30px;
+    background-image: url("../img/leaf.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 500px;
+    background-size: contain;
+    background-position: center;
+}
+
+.text-practice-2 {
+    margin-bottom: 30px;
+    background-image: radial-gradient(circle, rgba(251, 63, 63, 1) 8%, rgb(121, 238, 48) 44%, rgb(18, 238, 22) 100%);
+    background-size: cover;
+    background-position: top;
+}
+
+.text-practice-3 {
+    background: #6B77E5 url("../img/people.png") 0 50% / 400px no-repeat scroll;
+    margin-bottom: 30px;
+
+}
+
+.text-pro {
+    color: rgb(136, 127, 7);
+    margin-bottom: 30px;
+    background-image: url("../img/consulting/consulting-5.png");
+}
+
+.footer {
+    text-align: center;
+    font-size: 40px;
+}
