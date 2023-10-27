@@ -1,0 +1,602 @@
+@import url(font.css);
+@import url(reset.css);
+
+body {
+font-family: "Inter", sans-serif;
+color: #7D7D7D;
+}
+/*===============================================*/
+
+
+
+.header {
+    border-bottom: 1px solid #c2c0c0;
+    margin-bottom: 100px;
+}
+
+.header-container {
+    max-width: 1248px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.menu {
+    padding: 15px 0;
+}
+
+.menu img {
+    margin-right: 290px;
+    vertical-align: middle;
+}
+
+.menu-list {
+    display: inline-block;
+
+}
+
+.menu-list li {
+    padding: 10px 10px 20px 10px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-list li:not(:last-child) {
+    margin-right: 42px;
+
+}
+
+.menu-list li:active {
+    color: rgb(11, 11, 245);
+}
+
+.menu-list li:nth-child(2n+2):hover {
+    text-shadow: 1px 1px 30px rgba(0, 0, 0, 0.976);
+    color: #ff0000;
+    padding-bottom: 20px;
+}
+
+.menu-list li:nth-child(2n+1):hover {
+    text-shadow: 1px 1px 30px rgba(0, 0, 0, 0.976);
+    text-decoration: underline;
+    color: #0059ff;
+    padding-bottom: 20px;
+}
+
+.menu-link {
+    font-size: 18px;
+    display: inline-block;
+    text-transform: capitalize;
+    line-height: 1.27;
+    font-weight: 700;
+}
+
+/* .menu-link:visited {
+    color: #ee0202;
+} */
+
+
+
+/*===============================================*/
+.page {
+	margin-bottom: 100px;
+}
+/*===============================================*/
+
+.game {
+padding: 0 120px;
+margin-bottom: 100px;
+}
+.game-container {
+	background-color: #e3e3e3;
+	font-size: 0;
+	min-height: 500px;
+	padding: 0;
+	box-shadow: inset -5px -5px 10px #37393f, inset 5px 5px 10px #37393f;
+}
+
+[class*="game-line"] {
+	background-color: #37393f;
+}
+
+.game-line {
+	background-color: #37393f;
+}
+
+.game-start {
+	width: 40px;
+	height: 60px;
+}
+
+.game-line-1 {
+	display: inline-block;
+	width: 660px;
+	height: 30px;
+	visibility: hidden;
+}
+
+.game-line-2 {
+	display: block;
+	height: 80px;
+	width: 40px;
+	margin: 0 auto;
+	visibility: hidden;
+}
+
+.game-line-3 {
+	height: 30px;
+	width: 80px;
+	margin-left: 580px;
+	visibility: hidden;
+}
+.game-line-4 {
+	margin-left: 580px;
+	height: 80px;
+	width: 30px;
+	visibility: hidden;
+}
+.game-line-5 {
+	height: 20px;
+	width: 440px;
+	margin-left: 580px;
+	visibility: hidden;
+}
+
+.game-line-6 {
+	height: 80px;
+	width: 20px;
+	margin-left: 1000px;
+	visibility: hidden;
+}
+.game-line-7 {
+	height: 80px;
+	width: 20px;
+	margin-left: 1000px;
+	visibility: hidden;
+}
+.game-line-8 {
+	height: 28px;
+	width: 280px;
+	margin-left: 1000px;
+	display: inline-block;
+	visibility: hidden;
+}
+.game-line-8::after {
+	content: '';
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	margin-left: 253px;
+	background: url('../img/vector.png') 0 0 no-repeat;
+}
+
+.game-start:hover ~ .game-line-1,
+.game-line-1:hover {
+	visibility: visible;
+}
+
+.game-line-1:hover ~ .game-line-2,
+.game-line-2:hover {
+	visibility: visible;
+}
+
+.game-line-2:hover ~ .game-line-3,
+.game-line-3:hover {
+	visibility: visible;
+}
+
+.game-line-3:hover ~ .game-line-4,
+.game-line-4:hover {
+	visibility: visible;
+}
+
+.game-line-4:hover ~ .game-line-5,
+.game-line-5:hover {
+	visibility: visible;
+}
+.game-line-5:hover ~ .game-line-6,
+.game-line-6:hover {
+	visibility: visible;
+}
+.game-line-6:hover ~ .game-line-7,
+.game-line-7:hover {
+	visibility: visible;
+}
+.game-line-7:hover ~ .game-line-8,
+.game-line-8:hover {
+	visibility: visible;
+}
+
+
+/*===============================================*/
+
+.business-plan__container {
+	max-width: 695px;
+	padding: 0 10px;
+	margin: 0 auto 100px;
+}
+.title {
+	color: #37393f;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+.subtitle {
+	color: #37393f;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.22;
+	margin: 0px 0px 16px 0px;
+}
+.subtitle::before {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: #40ddb6;
+	margin: 5px 6px 0px 0px;
+}
+
+.business-plan__title {
+	margin: 0px 0px 10px 0px;
+	max-width: 415px;
+}
+.business-plan__text {
+	margin: 0px 0px 48px 0px;
+}
+.business-plan__text p {
+	font-size: 18px;
+	line-height: 1.46;
+}
+.business-plan__text p:not(:last-child) {
+	margin: 0px 0px 25px 0px;
+}
+.business-plan__list {
+	margin: 0px 0px 48px 0px;
+}
+.business-list li {
+	border: 1px solid #e3e3e3;
+	padding: 28px 41px 28px 38px;
+	transition: all .3s;
+}
+.business-list li:hover{
+	border: 1px solid #a1a1a1;
+	box-shadow: inset 0 0 3px #a1a1a1;
+
+}
+.business-list li:not(:last-child) {
+	margin: 0px 0px 31px 0px;
+}
+
+.business-list__title::before {
+	content: "";
+	display: inline-block;
+	width: 27px;
+	height: 28px;
+	margin: 0px 19px 0px 0px;
+	vertical-align: middle;
+	background: url("../img/vector.png") no-repeat;
+}
+.business-list__title {
+	color: #37393f;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.2;
+	margin-bottom: 12px;
+}
+.business-list__text {
+	line-height: 1.46;
+	padding: 0px 0px 0px 46px;
+}
+.business-list__text p:not(:last-child) {
+	margin-bottom: 10px;
+}
+.business-list__link {
+	color: #fff;
+	font-weight: 600;
+	text-transform: capitalize;
+	padding: 21px 35px 22px;
+	background-color: #6b77e5;
+	margin-bottom: 30px;
+	transition: all .3s;
+}
+.business-list__link:hover {
+	background-color: #010850;
+}
+.business-plan__container > *:last-child {
+	margin: 0px 0px 0px 0px;
+}
+
+/*===============================================*/
+
+
+.process {
+	font-size: 18px;
+	max-width: 1260px;
+	margin: 0 auto 100px;
+	padding: 20px;
+}
+
+.process > * {
+	margin-bottom: 16px;
+}
+
+.process .subtext {
+	color: #37393f;
+	font-weight: 500;
+	line-height: 1.22; 
+	margin-bottom: 16px;
+	text-align: center;
+}
+
+.process .subtext::before {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: #40ddb6;
+	margin-right: 6px;
+}
+
+.process .title {
+	color: #37393f;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	text-align: center;
+	margin-bottom: 41px;
+}
+
+.process .box {
+	font-size: 0px;
+}
+
+.process .box .block {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 386px;
+	text-align: center;
+	font-size: 0px;
+}
+
+.process .box .block:not(:last-of-type) {
+	margin-right: 31px;
+}
+
+.process .box .block .experimental-icon {
+	border-radius: 50%;
+	margin-bottom: -36px;
+}
+
+.process .box .block .block-text {
+	font-size: 18px;
+	line-height: 1.46;
+	padding: 58px 43px;
+	background: #f4f4f4;
+}
+
+.process .box .block .block-text > *:not(:last-child),
+.process .box .block .block-text .text > *:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.process .box .block .block-text .subtitle {
+	color: #37393f;
+	font-family: "Poppins", sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 16px;
+}
+
+.process .box .block .block-text .text {
+	margin-bottom: 37px;
+}
+
+.process .box .block .block-text .link {
+	font-size: 18px;
+	color: #6b77e5;
+	font-weight: 600;
+	text-transform: capitalize;
+	line-height: 1.22;
+	display: inline-block;
+}
+
+.process .box .block .block-text .link:hover {
+	text-decoration: underline;
+	color: #535cb4;
+}
+
+.process > *:last-child {
+	margin-bottom: 0px;
+}
+
+/*===============================================*/
+
+
+.why-us {
+	font-size: 18px;
+	font-weight: 400;
+	max-width: 732px;
+	margin: 0 auto 100px;
+	padding: 20px;
+}
+
+.why-us > * {
+	margin-bottom: 13px;
+}
+
+.why-us .title,
+.why-us .subtitle {
+	color: #37393f;
+	font-family: "Poppins", sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.27;
+}
+
+.why-us .text > *:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.why-us .text {
+	line-height: 1.46;
+}
+
+.why-us .text:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+.why-us .blue-subtitle {
+	color: #6b77e5;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+}
+.why-us .image-block {
+	margin-bottom: 50px;
+	font-size: 0px;
+}
+
+.why-us .image-block .image,
+.why-us .image-block .list-block {
+	display: inline-block;
+	min-height: 263px;
+	vertical-align: top;
+}
+
+.why-us .image-block .image {
+	width: 331px;
+	background: url("../img/office.png") center/cover no-repeat;
+	margin-right: 29px;
+}
+
+.why-us .image-block .list-block {
+	max-width: 332px;
+}
+
+.why-us .image-block .list-block .subtitle {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.why-us .aqua-subtext {
+	color: #40ddb6;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 21px;
+}
+
+.why-us .image-block .list-block .list .item {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.why-us .image-block .list-block .list .item::before {
+	content: "";
+	display: inline-block;
+	vertical-align: top;
+	width: 27px;
+	height: 27px;
+	background: url("../img/vector.png") center/contain no-repeat;
+	margin-right: 8px;
+	border-radius: 50%;
+}
+
+.why-us .image-block .list-block .list > *:not(:last-child) {
+	margin-bottom: 27px;
+}
+
+.why-us > *:last-child {
+	margin-bottom: 0cm;
+}
+
+/*===============================================*/
+
+
+.jewels-container {
+    max-width: 1244px;
+    padding: 0 15px;
+    margin: 0 auto;
+    font-family: "Cormorant Infant";
+    font-weight: 700;
+    font-size: 0px;
+    color: #000;
+}
+
+.jewels-title {
+    display: inline-block;
+    max-width: 480px;
+    font-size: 60px;
+    line-height: 1.15;
+    vertical-align: middle;
+    margin-right: 20px;
+    padding: 0px 0px 110px 0px;
+}
+
+.jewels-title::after {
+    margin: 13px 0px 0px 0px;
+    content: "";
+    display: block;
+    width: 304px;
+    height: 3px;
+    background: #78473B;
+}
+
+.jewels-item {
+    max-width: 334px;
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.jewels-item:not(:last-child) {
+    margin-right: 45px;
+}
+
+.jewels-item img {
+    margin: 10px 0px -10px 10px;
+    font-size: 0;
+    width: 100%;
+    transition: all 0.255s ease;
+}
+
+.jewels-item img:hover {
+    box-shadow: 0px 0px 10px 2px #000;
+    margin: 0;
+}
+
+.image-frame {
+    border: 1px solid #000;
+    margin-bottom: 34px;
+}
+
+.jewels-item p:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.jewels-title-link:hover {
+    text-decoration: underline;
+}
+
+.jewels-title-price {
+    line-height: 1.4;
+}
+
+.jewels-item-title {
+    padding-top: 130px;
+    font-size: 46px;
+    line-height: 1.13;
+    margin-bottom: 31px;
+}
+
+.footer-link {
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+}
