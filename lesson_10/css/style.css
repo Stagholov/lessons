@@ -1,0 +1,97 @@
+@import url(reset.css);
+
+
+body {
+    padding: 0 15px;
+    padding-top: 25px;
+    background: linear-gradient(90deg, rgba(99, 143, 142, 1) 0%, rgba(150, 142, 142, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.container {
+    max-width: 1280px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.397);
+    font-size: 0;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: black;
+    font-weight: 600;
+}
+h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.vector-wrap {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(247, 205, 205);
+    box-shadow: 4px 9px 10px 1px rgba(0, 0, 0, 0.262);
+    vertical-align: top;
+    padding: 20px;
+}
+.vector-wrap:not(:last-child) {
+    margin-bottom: 20px;
+}
+.img-wrap img {
+    vertical-align: middle;
+    width: 130px;
+}
+.img-wrap img:not(:last-child) {
+    margin-right: 20px;
+}
+.img-wrap:not(:last-child) {
+    margin-bottom: 10px;
+}
+.vector-wrap p {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.vector-wrap > img {
+    max-width: 100%;
+}
+.vector-wrap > img:not(:last-child) {
+    margin-bottom: 20px;
+}
+.vector-wrap:nth-child(4) {
+    text-align: center;
+}
+.vector-wrap > img:nth-child(2) {
+    margin-right: 50px;
+    margin-bottom: 0;
+}
+.vector-wrap > img:nth-child(3) {
+    width: 600px;
+}
+.vector-wrap:nth-child(6) {
+    text-align: center;
+}
+.footer {
+    padding: 50px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.38) 100%, rgba(0, 0, 0, 0.58) 100%);
+}
+.footer-container {
+    max-width: 1250px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-up {
+    display: inline-block;
+    font-size: 24px;
+    text-transform: capitalize;
+    background-color: #6d9166;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 40px;
+    transition: background-color 0.3s;
+}
+.footer-up:hover {
+    background-color: #425c3d;
+}
